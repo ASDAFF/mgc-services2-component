@@ -1,0 +1,150 @@
+.list{
+	text-align: center;
+}
+
+.list p{
+	font-size:18px;
+	font-family: Bodoni72C;
+	color: #000;
+	line-height: 1.3;
+}
+.list p a{
+	font-size:18px;
+	font-family: Bodoni72C;
+	color: #982626;
+	font-weight: bold;
+	text-decoration: underline;
+	
+}
+
+.service-header{
+     text-align: left;
+     margin: 40px 0 10px 0;
+     font-family: Bodoni72C;
+     color: #982626;
+     font-size: 24px;
+     line-height: 1.2;
+     text-transform: uppercase;
+     font-weight: normal;
+ }
+
+.service-subheader{
+    text-align: left;
+    float: left;
+    margin: 10px 20px 0px 0;
+    font-family: Bodoni72C;
+    color: #982626;
+    font-size: 16px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.service-message{
+	text-align: left;
+	padding-bottom: 20px;
+	font-family: BodoniItalic;
+	font-style: italic;
+	color: #000;
+	font-size: 12pt;
+    margin-top: 20px;
+}
+
+/*.service-img-start{
+	margin: 40px auto 0 auto;
+}
+
+.service-img{
+	margin: 10px auto 0 auto;
+}*/
+/*.jcarousel-list li { height: 44px; width: 67px; padding-top: 5px;}*/
+
+.service-img img{
+	width: 75px;
+	height: 52px; 
+-webkit-filter: sepia(100%) blur(1px) brightness(90%);  
+filter:gray
+}
+
+.service-img img{
+	border: 2px #000 solid;
+}
+
+.service-number{
+	text-align: center;
+	position: relative;
+	min-height: 270px !important;
+	overflow: visible;
+
+	
+}
+
+.service-number div{
+	text-align: center;
+	position: relative;
+	font-family: Bodoni72C;
+	color: #982626;
+	font-size: 170pt;
+	*font-size: 144pt;
+	font-size: 144pt\0/;
+	padding-top: 10px;
+	line-height: 100% !important;
+	letter-spacing: -10px;
+}
+
+.service-number p{
+    position: relative;
+    top: -20px;
+    padding-left: 15px;
+    //letter-spacing: -10px;
+}
+
+.service-number p a{
+
+    font-weight: bold;
+    font-style: italic;
+}
+
+.main-subheader{
+    text-align: left;
+//float: left;
+    margin: 0px 10px 10px;
+// padding: 20px 10px;
+    font-family: Bodoni72C;
+    color: #982626;
+    font-size: 16px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.service-element-contacts{
+    clear: both;
+
+}
+.service-element-order{
+    float: left;
+    padding-top: 10px;
+    font-family: Bodoni72C;
+
+}
+
+.service-element-order-a{
+    font-family: Bodoni72C-Bold;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.service-element-phones{
+    font-family: Bodoni72C-Bold;
+    float: left;
+    font-style: italic;
+    font-size: 24px;
+    color: #982626;
+    margin: 0 0 0 215px ;
+    padding-top: 10px;
+    width: 300px;
+    text-align: center;
+}
