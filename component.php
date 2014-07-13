@@ -240,7 +240,7 @@ class ServicesMgc
 	 * @param $sectionMainElementId
 	 * @return array
 	 */
-	public function divideElements($arElements, $sectionMainElementId)
+	public function divideElements($arElements, $sectionMainElementId = false)
 	{
 		$iMainElementId = (int)$sectionMainElementId;
 		$aMainElement = array();
@@ -257,6 +257,11 @@ class ServicesMgc
 				}
 			}
 		}
+		else
+		{
+			$aMainElement = array_shift ($arElements);
+		}
+
 		return array('MAIN_ELEMENT' => $aMainElement, 'ELEMENTS' => $arElements);
 	}
 
